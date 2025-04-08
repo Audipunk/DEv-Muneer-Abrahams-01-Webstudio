@@ -8,8 +8,7 @@ import { Routes, Route } from 'react-router-dom';
 // import Hero from './components/Hero/Hero';
 // import Features from './components/Features/Features';
 // import Work from './components/Work/Work';
-// import Team from './components/Team/Team';
-// import Clients from './components/Clients/Clients';
+
 // import Footer from './components/Footer/Footer';
 
 const Home = lazy(() =>
@@ -31,7 +30,7 @@ function App() {
     <div className="App">
       {/* <Home /> */}
 
-      <Suspense fallback={<h1>Загрузка...</h1>}>
+      <Suspense fallback={<h1></h1>}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />

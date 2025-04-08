@@ -15,8 +15,6 @@ function Home () {
       <Hero />
       <Features />
       <Work />
-      <Team />
-      <Clients />
       <Footer />
     </div>
   );

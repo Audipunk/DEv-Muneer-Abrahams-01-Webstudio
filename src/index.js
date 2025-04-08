@@ -10,29 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import BaseScss from './base.scss';
 // import VariablesScss from './variables.scss';
 
-import global__en from './components/Translation/en/global.json';
-import global__uk from './components/Translation/uk/global.json';
-import global__ru from './components/Translation/ru/global.json';
-
-import i18next from 'i18next';
-import { I18nextProvider } from 'react-i18next';
-
-i18next.init({
-  interpolation: { escapeValue: false },
-  lng: 'en',
-  resources: {
-    en: {
-      global: global__en,
-    },
-    uk: {
-      global: global__uk,
-    },
-    ru: {
-      global: global__ru,
-    },
-  },
-});
-
+import './styles/base.scss';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

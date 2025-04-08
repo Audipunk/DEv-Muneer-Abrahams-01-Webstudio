@@ -27,6 +27,7 @@ const Portfolio = () => {
             <div className="mobile__wrap">
               <Link className="logo" to="/" aria-label="logo">
                 <span className="logo__web">Web</span>
+                <span className="logo__web">Dev</span>
                 <span className="logo__studio">Studio</span>
               </Link>
               <Dropdown />
@@ -81,7 +82,7 @@ const Portfolio = () => {
                       href="mailto:info@example.com"
                     >
                       <Envelope className="contacts__svg-envelope" />
-                      info@example.com
+                      audipunkwp@gmail.com
                     </a>
                   </li>
 
@@ -89,10 +90,10 @@ const Portfolio = () => {
                     <a
                       aria-label="link to phone"
                       className="contacts__link contacts__icon"
-                      href="tel:+380961111111"
+                      href="tel:+27 786858122"
                     >
                       <Smartphone className="contacts__svg" />
-                      +38 096 111 11 11
+                      +27 786858122
                     </a>
                   </li>
                 </ul>

@@ -21,6 +21,7 @@ const Header = () => {
             <div className="mobile__wrap">
               <Link aria-label="logo" className="logo" to="/">
                 <span className="logo__web">Web</span>
+                <span className="logo__web">Dev</span>
                 <span className="logo__studio">Studio</span>
               </Link>
               <Dropdown />

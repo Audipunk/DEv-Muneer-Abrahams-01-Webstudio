@@ -36,13 +36,14 @@ const Footer = () => {
             >
               <a className="logo element-animation" href="!#">
                 <span className="logo-web">Web</span>
+                <span className="logo-web">Dev</span>
                 <span className="logo-studio-footer">Studio</span>
               </a>
               <address className="address element-animation">
                 <a
                   aria-label="link to map"
                   className="address-map"
-                  href="https://goo.gl/maps/nESUi33Z9tEDnT8MA"
+                  href="https://www.google.com/maps/place/16+Cashel+Ave,+Zwartdam,+Cape+Town,+7760/@-33.9693714,18.5052141,17z/data=!3m1!4b1!4m6!3m5!1s0x1dcc434d01f62aa3:0x1520b7fa763066cf!8m2!3d-33.9693759!4d18.507789!16s%2Fg%2F11cskl44p0?entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferer noreferrer"
                 >
@@ -51,17 +52,17 @@ const Footer = () => {
                 <a
                   aria-label="link to email"
                   className="address-link"
-                  href="mailto:info@example.com"
+                  href="mailto:audipunkwp@gmail.com"
                 >
                   {t('footer.email')}
                 </a>
                 <a
                   aria-label="link to tel"
                   className="address-link no-margin"
-                  href="tel:++380991111111"
+                  href="tel:+27786858122"
                 >
                   {t('footer.tel')}
-                  {/* +38 099 111 11 11 */}
+                  {/* +27786858122 */}
                 </a>
               </address>
             </motion.div>
@@ -76,17 +77,7 @@ const Footer = () => {
               </b>
               <ul className="team-flex element-animation">
                 <li className="footer-list-icon">
-                  <a
-                    href="https://www.instagram.com/"
-                    aria-label="link to instagram"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    <Instagram
-                      aria-label="Ссилка на Instagram"
-                      className="footer-icon"
-                    />
-                  </a>
+                 
                 </li>
                 <li className="footer-list-icon">
                   <a
